@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		8B387F32256DA5050071C3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F31256DA5050071C3FE /* Assets.xcassets */; };
 		8B387F35256DA5050071C3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F34256DA5050071C3FE /* Preview Assets.xcassets */; };
 		8B387F3E256DA5260071C3FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */; };
+		8B387F5F256DA9C80071C3FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B387F5E256DA9C80071C3FE /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8B387F34256DA5050071C3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B387F36256DA5050071C3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8B387F5E256DA9C80071C3FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			children = (
 				8B387F2D256DA5030071C3FE /* StudentLinkedInApp.swift */,
 				8B387F2F256DA5030071C3FE /* ContentView.swift */,
+				8B387F5E256DA9C80071C3FE /* AppDelegate.swift */,
 				8B387F31256DA5050071C3FE /* Assets.xcassets */,
 				8B387F36256DA5050071C3FE /* Info.plist */,
 				8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */,
@@ -93,7 +96,6 @@
 				6762F35E589EA2D4ADF2080C /* Pods-StudentLinkedIn.debug.xcconfig */,
 				02FC021B887E44923D36E42B /* Pods-StudentLinkedIn.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -211,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B387F5F256DA9C80071C3FE /* AppDelegate.swift in Sources */,
 				8B387F30256DA5030071C3FE /* ContentView.swift in Sources */,
 				8B387F2E256DA5030071C3FE /* StudentLinkedInApp.swift in Sources */,
 			);

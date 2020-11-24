@@ -6,9 +6,13 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct StudentLinkedInApp: App {
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
