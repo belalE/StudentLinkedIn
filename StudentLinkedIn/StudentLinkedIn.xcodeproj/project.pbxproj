@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78370D88C618C95F048E8D4A /* Pods_StudentLinkedIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BF3284B654C85783B8DF6AA /* Pods_StudentLinkedIn.framework */; };
 		8B387F2E256DA5030071C3FE /* StudentLinkedInApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B387F2D256DA5030071C3FE /* StudentLinkedInApp.swift */; };
 		8B387F30256DA5030071C3FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B387F2F256DA5030071C3FE /* ContentView.swift */; };
 		8B387F32256DA5050071C3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F31256DA5050071C3FE /* Assets.xcassets */; };
 		8B387F35256DA5050071C3FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F34256DA5050071C3FE /* Preview Assets.xcassets */; };
+		8B387F3E256DA5260071C3FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02FC021B887E44923D36E42B /* Pods-StudentLinkedIn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLinkedIn.release.xcconfig"; path = "Target Support Files/Pods-StudentLinkedIn/Pods-StudentLinkedIn.release.xcconfig"; sourceTree = "<group>"; };
+		3BF3284B654C85783B8DF6AA /* Pods_StudentLinkedIn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudentLinkedIn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6762F35E589EA2D4ADF2080C /* Pods-StudentLinkedIn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudentLinkedIn.debug.xcconfig"; path = "Target Support Files/Pods-StudentLinkedIn/Pods-StudentLinkedIn.debug.xcconfig"; sourceTree = "<group>"; };
 		8B387F2A256DA5030071C3FE /* StudentLinkedIn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudentLinkedIn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B387F2D256DA5030071C3FE /* StudentLinkedInApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentLinkedInApp.swift; sourceTree = "<group>"; };
 		8B387F2F256DA5030071C3FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B387F31256DA5050071C3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B387F34256DA5050071C3FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B387F36256DA5050071C3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78370D88C618C95F048E8D4A /* Pods_StudentLinkedIn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021B9F52792DA604250E71FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BF3284B654C85783B8DF6AA /* Pods_StudentLinkedIn.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8B387F21256DA5030071C3FE = {
 			isa = PBXGroup;
 			children = (
 				8B387F2C256DA5030071C3FE /* StudentLinkedIn */,
 				8B387F2B256DA5030071C3FE /* Products */,
+				D6F222C171F1117E83857228 /* Pods */,
+				021B9F52792DA604250E71FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +73,7 @@
 				8B387F2F256DA5030071C3FE /* ContentView.swift */,
 				8B387F31256DA5050071C3FE /* Assets.xcassets */,
 				8B387F36256DA5050071C3FE /* Info.plist */,
+				8B387F3D256DA5260071C3FE /* GoogleService-Info.plist */,
 				8B387F33256DA5050071C3FE /* Preview Content */,
 			);
 			path = StudentLinkedIn;
@@ -69,6 +87,16 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D6F222C171F1117E83857228 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6762F35E589EA2D4ADF2080C /* Pods-StudentLinkedIn.debug.xcconfig */,
+				02FC021B887E44923D36E42B /* Pods-StudentLinkedIn.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B387F39256DA5050071C3FE /* Build configuration list for PBXNativeTarget "StudentLinkedIn" */;
 			buildPhases = (
+				4DF22E2DC6CA368513D95BAE /* [CP] Check Pods Manifest.lock */,
 				8B387F26256DA5030071C3FE /* Sources */,
 				8B387F27256DA5030071C3FE /* Frameworks */,
 				8B387F28256DA5030071C3FE /* Resources */,
+				D1A19D7D72216715C72A03D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +157,54 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B387F35256DA5050071C3FE /* Preview Assets.xcassets in Resources */,
+				8B387F3E256DA5260071C3FE /* GoogleService-Info.plist in Resources */,
 				8B387F32256DA5050071C3FE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DF22E2DC6CA368513D95BAE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudentLinkedIn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1A19D7D72216715C72A03D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudentLinkedIn/Pods-StudentLinkedIn-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudentLinkedIn/Pods-StudentLinkedIn-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudentLinkedIn/Pods-StudentLinkedIn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8B387F26256DA5030071C3FE /* Sources */ = {
@@ -264,6 +337,7 @@
 		};
 		8B387F3A256DA5050071C3FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6762F35E589EA2D4ADF2080C /* Pods-StudentLinkedIn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -285,6 +359,7 @@
 		};
 		8B387F3B256DA5050071C3FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FC021B887E44923D36E42B /* Pods-StudentLinkedIn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
